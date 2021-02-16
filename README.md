@@ -2,6 +2,9 @@
 
 Table hold for lamp modeled with [OpenSCAD](https://www.openscad.org/)
 
-![hold](hold.png)
+I've used [Cuiso](www.thingiverse.com/thing:3131126) lib for modeling screws and [WriteScad](https://github.com/rohieb/Write.scad) for add the text.
 
-![screw](screw.png)
+![hold](hold.jpg)
+
+![screw](screw.jpg)
+
