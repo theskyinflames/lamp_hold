@@ -13,13 +13,14 @@ minkowski() // Upper base
 translate([0,0,-40]) // lamp hold
     difference()
     {
+        color("blue")
         minkowski()
         {
             cube([65,50,40]);
             cylinder(r=2,h=1);
         }
         translate([30,25,-50])
-            cylinder(r=15,h=200);
+            cylinder(r=10,h=200);
     }
 
 translate([60,0,20]) // Column
@@ -37,7 +38,7 @@ translate([0,0,50]) // Srew hold
             cube([80,50,30]);
             cylinder(r=2,h=1);
         }
-        translate([20,25,-10])
+        translate([20,26,-10])
             thread_for_screw(diameter=25, length=70);
     }
  
