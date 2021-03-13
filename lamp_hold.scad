@@ -16,11 +16,11 @@ translate([0,0,-40]) // lamp hold
         color("blue")
         minkowski()
         {
-            cube([65,50,40]);
+            cube([35,50,40]);
             cylinder(r=2,h=1);
         }
-        translate([30,25,-50])
-            cylinder(r=10,h=200);
+        translate([17,25,-50])
+            cylinder(r=7,h=200);
     }
 
 translate([60,0,20]) // Column
@@ -57,7 +57,7 @@ translate([82,23,20]) // Column reinforcement
             cylinder(r=2,h=1);
         }
         
-translate([144,20,3])
+translate([144,20,3]) // trade
     rotate([180,0,180])
         color("red")
         write("@theskyinflames",h=8,t=5,font="knewave.dxf",space=0.8);
