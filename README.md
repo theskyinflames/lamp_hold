@@ -1,6 +1,4 @@
-# lamp_hold (WIP)!
-
-## Be careful! this is still a wip !
+# lamp_hold
 
 Table hold for lamp modeled with [OpenSCAD](https://www.openscad.org/)
 
